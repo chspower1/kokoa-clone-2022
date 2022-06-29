@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Find-KokoaTalk</title>
+    </head>
+    <body>
+        <!-- 핸드폰 상태바 -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <!-- Find창 헤더 -->
+        <header class="friends-header">
+            <h1 class="friends-header__title">Find</h1>
+            <div class="friends-header__icon">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
+                <span
+                    ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+                </span>
+            </div>
+        </header>
+        <!-- 채널창 -->
+        <div class="find-menu">
+            <div class="find-menu__item">
+                <i class="fa-solid fa-qrcode fa-2xl"></i>
+                <span class="find-menu__item--name">QR CODE</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-regular fa-address-book fa-2xl"></i>
+                <span class="find-menu__item--name">Add by Contacts</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-solid fa-plus fa-2xl"></i>
+                <span class="find-menu__item--name">Add by ID</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-regular fa-address-book fa-2xl"></i>
+                <span class="find-menu__item--name">Invite</span>
+            </div>
+        </div>
+        <!-- Find 창 -->
+        <main class="find-screen">
+            <div class="find-screen__title">
+                <h3>Recommended Friends</h3>
+            </div>
+            <div class="find-screen__content">
+                <div>You have no recommended friends</div>
+            </div>
+        </main>
+        <!-- Open Chat 헤더 -->
+        <main class="main-screen">
+            <header class="open-chat__header">
+                <div class="opne-chat__herder--title">
+                    <span>Open Chat</span>
+                </div>
+                <div class="opne-chat__header--subtitle">
+                    <span>Go to Openchat Home</span>
+                </div>
+            </header>
+            <!-- Open Chat 내용 -->
+            <header>
+                <!--오픈챗 컨텐츠01 -->
+                <div class="opne-chat-content">
+                    <!--오픈챗 01내용 -->
+                    <div class="opne-chat-content__column">
+                        <a href="#" class="opne-chat-content__title">#Haneul</a>
+                        <span class="opne-chat-content__subtitle">#Haneul#Hosung#Married</span>
+                        <div class="user-component">
+                            <div class="user-component__column">
+                                <img src="img/chs.png" class="user-component__img user-component__img--xs" />
+                                <div class="user-component__text">
+                                    <div class="user-component__text--open-chat">
+                                        <span class="user-component__name--sm">802 members</span>
+                                        <!-- <h6 class="user-component__subtitle">Do my best!</h6> -->
+                                        <span class="user-component__active">Active</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-component__column"></div>
+                        </div>
+                    </div>
+
+                    <!--오픈챗 01이미지 -->
+                    <div class="opne-chat-content__column">
+                        <img src="img/kim.jpg" class="open-chat__img" />
+                        <div class="open-chat__img--box">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div>
+                <!--오픈챗 컨텐츠02-->
+                <div class="opne-chat-content">
+                    <!--오픈챗 02내용 -->
+                    <div class="opne-chat-content__column">
+                        <a href="#" class="opne-chat-content__title">#BTS</a>
+                        <span class="opne-chat-content__subtitle">#BTS#ARMY#FRIENDS</span>
+                        <div class="user-component">
+                            <div class="user-component__column">
+                                <img src="img/bts2.jpg" class="user-component__img user-component__img--xs" />
+                                <div class="user-component__text">
+                                    <div class="user-component__text--open-chat">
+                                        <span class="user-component__name--sm">128 members</span>
+                                        <!-- <h6 class="user-component__subtitle">Do my best!</h6> -->
+                                        <span class="user-component__active">Active</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-component__column"></div>
+                        </div>
+                    </div>
+                    <!--오픈챗 02이미지 -->
+                    <div class="opne-chat-content__column">
+                        <img src="img/bts.jpg" class="open-chat__img" />
+                        <div class="open-chat__img--box">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>36</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+        <!-- 하단 네비케이터 메뉴바 -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__icon" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="chat.html">
+                        <span class="nav__notification badge">1</span>
+                        <i class="fa-regular fa-comment fa-2x"> </i
+                    ></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="find.html">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="more.html">
+                        <span class="nav__notification dot"></span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- fontawesome 스크립트 -->
+        <script src="https://kit.fontawesome.com/ed1b8a51c2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

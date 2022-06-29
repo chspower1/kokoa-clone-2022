@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Friends-KokoaTalk</title>
+    </head>
+    <body>
+        <!-- 핸드폰 상태바 -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        <!-- 하단 네비케이터 메뉴바 -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__icon" href="friends.html">
+                        <i class="fa-solid fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="chat.html">
+                        <span class="nav__notification badge">1</span>
+                        <i class="fa-regular fa-comment fa-2x"></i
+                    ></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="more.html">
+                        <span class="nav__notification dot"></span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Friends창 헤더 -->
+        <header class="friends-header">
+            <h1 class="friends-header__title">Friends</h1>
+            <div class="friends-header__icon">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
+                <span><i class="fa-brands fa-itunes-note fa-lg"></i> </span>
+                <span
+                    ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+                </span>
+            </div>
+        </header>
+        <!-- Friends'name display link창 -->
+        <a href="#" class="friend-name-display">
+            <div class="friend-name-display__text">
+                <span class="friend-name-display__title">
+                    <i class="fa-solid fa-circle-info fa-lg"></i>
+                    Friends' Names Display
+                    <i class="fa-solid fa-chevron-right fa-2xs"></i>
+                </span>
+            </div>
+        </a>
+        <!-- 친구 스크린창 -->
+        <main class="friends-screen">
+            <!-- 유저창 -->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/chs.png" class="user-component__img user-component__img--xl" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__name">Hosung</h4>
+                        <!-- <h6 class="user-component__subtitle">Do my best!</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+        </main>
+
+        <!-- 채널창 -->
+        <main class="friends-screen">
+            <!-- 채널창 헤더 -->
+            <div class="friends-screen__chanel-header">
+                <span>Chanel</span>
+                <i class="fa-solid fa-angle-up fa-sm"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/chs.png" class="user-component__img user-component__img--sm" />
+                    <div class="user-component__text">
+                        <span class="user-component__name">Chanel</span>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div class="gray">
+                        <span>2</span>
+                        <i class="fa-solid fa-angle-right fa-sm"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://kit.fontawesome.com/ed1b8a51c2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

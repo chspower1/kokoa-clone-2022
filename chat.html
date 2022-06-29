@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat-KokoaTalk</title>
+    </head>
+    <body>
+        <!-- 핸드폰 상태바 -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        <!-- 하단 네비케이터 메뉴바 -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__icon" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="chat.html">
+                        <i class="fa-solid fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__icon" href="more.html">
+                        <span class="nav__notification dot"></span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- chat창 헤더 -->
+        <header class="friends-header">
+            <h1 class="friends-header__title">Chat</h1>
+            <div class="friends-header__icon">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
+                <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+                <span><i class="fa-brands fa-itunes-note fa-lg"></i> </span>
+                <span
+                    ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i> </a
+                ></span>
+            </div>
+        </header>
+        <!-- 채널창 -->
+        <main class="main-screen">
+            <a href="chatting.html">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img src="img/kakao_icon.png" class="user-component__img user-component__img" />
+                        <div class="user-component__text">
+                            <span class="user-component__name">KoKoaTalk</span>
+                            <span class="user-component__subtitle"> Please check My KaKao Acount Info </span>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <div class="user-component__time">22:22</div>
+                        <div class="badge">1</div>
+                    </div>
+                </div>
+            </a>
+        </main>
+        <!-- fontawesome 스크립트 -->
+        <script src="https://kit.fontawesome.com/ed1b8a51c2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

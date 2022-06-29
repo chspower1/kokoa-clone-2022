@@ -1,0 +1,26 @@
+.friend-name-display__text {
+    padding: 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-chevron {
+    color: rgb(192, 192, 192);
+}
+.friend-name-display__text:active {
+    background-color: var(--yellow);
+    color: white;
+}
+.friend-name-display__text i {
+    transition: color 0.3s ease-in-out;
+}
+.friend-name-display__text:active i {
+    color: white;
+}

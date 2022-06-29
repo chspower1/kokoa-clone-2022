@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat-KokoaTalk</title>
+    </head>
+    <body class="chatting-screen">
+        <!-- 핸드폰 상태바 -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        <!-- settings 헤더 -->
+        <div class="alt-header">
+            <div class="alt-header__column">
+                <a href="friends.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">Hosung</div>
+            <div class="alt-header__column">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+        </div>
+        <!-- 채팅 시간 표시 -->
+        <div class="chatting__time">2022. 06. 26. 화요일</div>
+        <!-- 메세지 행단 -->
+        <div class="message-row">
+            <img src="img/kim.jpg" class="message__img" />
+            <div class="message-row__content">
+                <span class="message__author"> 하늘 </span>
+                <div class="message__info">
+                    <span class="message__buble">안녕</span>
+                    <span class="message__time">22:30</span>
+                </div>
+            </div>
+        </div>
+        <!-- 메세지 행단 -->
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__buble">안녕</span>
+                    <span class="message__time">22:30</span>
+                </div>
+            </div>
+        </div>
+        <!-- 채팅내용 -->
+        <form class="reply">
+            <div class="reply__column"><i class="fa-regular fa-square-plus"></i></div>
+            <div class="reply__column">
+                <input type="text" placeholder="채팅을 입력하세요" />
+                <i class="fa-regular fa-face-smile"></i>
+                <button>
+                    <i class="fa-solid fa-up-long"></i>
+                </button>
+            </div>
+        </form>
+        <script src="https://kit.fontawesome.com/ed1b8a51c2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

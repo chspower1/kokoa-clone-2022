@@ -1,0 +1,21 @@
+.friends-header {
+    padding: var(--horizontal-space);
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friends-header__title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.friends-header__icon span {
+    width: 33%;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+.friends-header__title {
+    font-weight: 600;
+    font-size: 30px;
+}
